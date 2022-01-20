@@ -4,8 +4,8 @@
   "description": "2. project",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
