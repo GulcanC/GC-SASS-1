@@ -1,0 +1,46 @@
+// COLORS
+
+$color-primary: rgb(66, 208, 243);
+$color-primary-light: rgb(157, 231, 250);
+$color-primary-dark: rgb(12, 103, 126);
+
+$color-secondary: rgb(128, 61, 236);
+$color-secondary-light: rgb(163, 134, 209);
+$color-secondary-dark: rgb(108, 10, 236);
+
+$color-tertiary: rgb(55, 201, 74);
+$color-tertiary-light: rgb(160, 231, 169);
+$color-tertiary-dark: rgb(55, 201, 74);
+
+$color-card-1-dark: rgb(6, 198, 247);
+$color-card-1-light: rgb(144, 240, 208);
+
+$color-card-2-dark: rgb(99, 4, 250);
+$color-card-2-light: rgb(247, 156, 219);
+
+$color-card-3-dark: rgb(243, 72, 4);
+$color-card-3-light: rgb(238, 240, 156);
+
+$color-card-4-dark: rgb(23, 250, 2);
+$color-card-4-light: rgb(138, 212, 241);
+
+$color-grey-light: rgb(154, 153, 155);
+$color-grey-dark: rgb(103, 103, 104);
+
+$color-white-1: rgb(248, 240, 240);
+$color-white-2: rgb(229, 229, 233);
+
+$color-black: #000;
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//FONT SIZE
+$default-font-size: 1.6rem;
+
+// TEXT- BOX SHADOW
+$text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.7);
+$box-shadow-1: 0rem 1rem 2rem rgba($color-black, 0.5);
+$box-shadow-2: 0.5rem 1rem 2rem rgba($color-primary-light, 0.6);

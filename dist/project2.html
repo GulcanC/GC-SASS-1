@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Gulcan Coskun | My Project-Advance CSS and SASS</title>
+  </head>
+
+  <body>
+
+    <!--navigation button-->
+
+    <div class="navigation">
+
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>CSS</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>RWD</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>SASS</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>BOOTSTRAP</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo-small.jpg" alt="logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">style your web sıte</span>
+          <span class="heading-primary--sub">css-responsive web design sass-bootstrap</span>
+        </h1>
+        <a href="#section-about" class="btn btn--grey btn--animated">LEARN web development</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="section-about">
+        <!--This is utility class-->
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 class="heading-secondary">style your web page</h2>
+        </div>
+
+        <div class="row" id="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">CSS: Cascading Style Sheets</h3>
+            <p class="paragraph">
+              CSS is a stylesheet language used to describe
+               the presentation of a document written in HTML or XML.
+               CSS describes how elements should be rendered on screen,
+              on paper, in speech, or on other media.
+            </p>
+
+            <h3 class="heading-tertiary">responsive web design</h3>
+            <p class="paragraph">
+              Responsive web design is about creating web pages that look good on all devices!
+              A responsive web design will automatically adjust for different screen sizes and viewports.
+            </p>
+            <a href="#section-features" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/css-large.jpg"
+                alt="CSS"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="img/responsive-large.jpg"
+                alt="RESPONSIVE"
+                class="composition__photo composition__photo--p2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/sass-large.jpg"
+                alt="SASS"
+                class="composition__photo composition__photo--p3"
+              />
+              <img
+                src="img/bootstrap-large.jpg"
+                alt="BOOTSTRAP"
+                class="composition__photo composition__photo--p4"
+              />
+            </div>
+          </div>
+          <div class="col-1-of-2 margin-right-1">
+            <h3 class="heading-tertiary u-margin-bottom-small">Sass: Syntactically Awesome Style Sheets</h3>
+            <p class="paragraph">
+              Sass is the most mature, stable, and powerful professional
+              grade CSS extension language in the world. Sass is completely
+              compatible with all versions of CSS.
+            </p>
+
+            <h3 class="heading-tertiary">Bootstrap</h3>
+            <p class="paragraph">
+              Bootstrap is the most popular HTML, CSS, and JavaScript
+              framework for developing responsive, mobile-first websites.
+              Bootstrap is completely free to download and use!
+            </p>
+            <a href="#section-features" class="btn-text">Learn more &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!--KARTLAR-->
+
+      <section class="section-features" id="section-features">
+        <!-- ".row>.col-1-of-4>.feature-box"-->
+       <div class="row">
+         <div class="col-1-of-4">
+           <div class="feature-box">
+             <!--To choose icon use this web site. https://famebox.pl/linea-icons/-->
+       
+        <h3 class="heading-tertiary u-margin-bottom-small">CSS</h3>
+        <p class="feature-box__text">
+          CSS is used along with HTML and JavaScript in most
+          websites to create user interfaces for web applications
+          and user interfaces for many mobile applications.
+        </p>
+        <i class="feature-box__icon icon-basic-picture-multiple"></i>
+           </div>
+         </div>
+
+         <div class="col-1-of-4">
+          <div class="feature-box">
+            <!--To choose icon use this web site. https://famebox.pl/linea-icons/-->
+      
+       <h3 class="heading-tertiary u-margin-bottom-small">RWD </h3>
+       <p class="feature-box__text">
+        RWD is called responsive web design when you use CSS and HTML to resize, hide,
+        shrink, enlarge, or move the content to make it look good on any screen.
+       </p>
+       <i class="feature-box__icon icon-basic-display"></i>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <!--To choose icon use this web site. https://famebox.pl/linea-icons/-->
+     
+       <h3 class="heading-tertiary u-margin-bottom-small">SASS</h3>
+       <p class="feature-box__text">
+        Sass has features that don't exist in CSS yet like nesting, mixins, inheritance,
+         and other nifty goodies that help you write robust, maintainable CSS.
+       </p>
+       <i class="feature-box__icon icon-basic-webpage-multiple"></i>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <!--To choose icon use this web site. https://famebox.pl/linea-icons/-->
+      
+       <h3 class="heading-tertiary u-margin-bottom-small">BOOTSTRAP</h3>
+       <p class="feature-box__text">
+         Bootstrap framework is built on HTML, CSS, and JavaScript (JS) to facilitate the development of responsive, mobile-first sites and applications.
+       </p>
+       <i class="feature-box__icon icon-basic-tablet"></i>
+          </div>
+        </div>
+       </div>
+        </row>
+      </section>
+<!--CARDS-->
+      <section class="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            WEB DEVELOPMENT
+          </h2>
+          <div class="row">
+            <div class="col-1-of-4">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                   <span class="card__heading-span card__heading-span--1">css</span> </h4>
+                  <div class="card__details">
+                    <ul>
+                    <li>CSS saves time</li>
+                    <li>Easy maintenance</li>
+                    <li>Global web standards</li>
+                    <li>Platform independence</li>
+                    <li>The layout of a web page is better controlled</li>
+                    </ul>
+                  </div>
+                </div>
+                 <div class="card__side card__side--back card__side--back-1">
+                   <div class="card__cta">
+                     <div class="card__price-box">
+                       <p class="card__price-only">-1-</p>
+                       <p class="card__price-value">CSS</p>
+                     </div>
+                     <a href="#popup" class="btn btn--white">Learn more!</a>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                     &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                   <span class="card__heading-span card__heading-span--2">responsive design</span> </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>All content and pages are flexible
+                         across all screen resolutions and devices</li>
+                      <li>You can read and navigate the site with minimum
+                         resizing and scrolling</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                 <div class="card__side card__side--back card__side--back-2">
+                   <div class="card__cta">
+                     <div class="card__price-box">
+                       <p class="card__price-only">-2-</p>
+                       <p class="card__price-value">RWD</p>
+                     </div>
+                     <a href="#popup" class="btn btn--white">Learn more!</a>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">
+                   &nbsp;
+                </div>
+                <h4 class="card__heading">
+                 <span class="card__heading-span card__heading-span--3">sass</span> </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>It is more stable, powerful, and elegant because it is an extension of CSS</li>
+                    <li>It is compatible with all versions of CSS</li>
+                    <li>It contains fewer codes so you can write CSS quicker</li>
+                  </ul>
+                </div>
+              </div>
+               <div class="card__side card__side--back card__side--back-3">
+                 <div class="card__cta">
+                   <div class="card__price-box">
+                     <p class="card__price-only">-3-</p>
+                     <p class="card__price-value">SASS</p>
+                   </div>
+                   <a href="#popup" class="btn btn--white">Learn more!</a>
+                 </div>
+               </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--4">
+                   &nbsp;
+                </div>
+                <h4 class="card__heading">
+                 <span class="card__heading-span card__heading-span--4">bootstrap</span> </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Fewer Cross browser bugs</li>
+                    <li>Responsive structures and styles</li>
+                    <li>Good documentation and community support</li>
+                    <li>Lightweight and customizable</li>
+                  </ul>
+                </div>
+              </div>
+               <div class="card__side card__side--back card__side--back-4">
+                 <div class="card__cta">
+                   <div class="card__price-box">
+                     <p class="card__price-only">-4-</p>
+                     <p class="card__price-value">BOOTSTRAP</p>
+                   </div>
+                   <a href="#popup" class="btn btn--white">Learn more!</a>
+                 </div>
+               </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-big">
+          <a href="#section-stories" class="btn btn--grey">web development</a>
+        </div>
+      </section>
+
+      <!--STORIES-->
+
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+         web development
+        </h2>
+      </div>
+      <div class="section-stories" id="section-stories">
+       
+       
+       <div class="row">
+          <div class="story">
+           <figure class="story__shape">
+             <img src="img/story1.jpg" class="story__image" alt="story 1">
+            <figcaption class="story__caption">
+              CSS
+            </figcaption>
+           </figure>
+
+           <div class="story__text">
+             <h3 class="heading-tertiary u-margin-bottom-small">CSS</h3>
+             <p>@keyframes moveInLeft {
+              0% {
+                opacity: 0;
+                transform: translateX(-10rem); } }
+             </p>
+           </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+           <figure class="story__shape">
+             <img src="img/story2.jpg" class="story__image" alt="story 1">
+            <figcaption class="story__caption">
+              RWD
+            </figcaption>
+           </figure>
+
+           <div class="story__text">
+             <h3 class="heading-tertiary u-margin-bottom-small">buraya bilgi yaz</h3>
+             <p>@media (min-width: 992px) {
+
+              body, p, a, h4 {
+              
+              font-size: 14px;
+              
+              }
+              
+              }
+             </p>
+           </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+           <figure class="story__shape">
+             <img src="img/story3.jpg" class="story__image" alt="story 1">
+            <figcaption class="story__caption">
+              SASS
+            </figcaption>
+           </figure>
+
+           <div class="story__text">
+             <h3 class="heading-tertiary u-margin-bottom-small">SASS</h3>
+             <p>.form { 
+              &__group:not(:last-child) 
+              { margin-bottom: 2rem; }
+             </p>
+           </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+           <figure class="story__shape">
+             <img src="img/story4.jpg" class="story__image" alt="story 1">
+            <figcaption class="story__caption">
+              BOOTSTRAP
+            </figcaption>
+           </figure>
+
+           <div class="story__text">
+             <h3 class="heading-tertiary u-margin-bottom-small">BOOTSTRAP</h3>
+             <p>class="list-group"
+              class="list-group-item"
+             </p>
+           </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-big">
+          <a href="#section-book" class="btn-text">Learn more &rarr;</a>
+        </div>
+      </div>  
+<!--SECTION BOOK-->
+      <section class="section-book u-margin-top-small" id="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#section-book" class="form">
+                
+                   <div class="u-margin-bottom-medium">
+                     <h2 class="heading-secondary">
+                      start web development
+                     </h2>
+                    </div>
+
+                <div class="form__group">
+                  <input type="text" class="form__input" placeholder="Full name" id="name" required autocomplete="off">
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input type="email" class="form__input" placeholder="Email address" id="name" required autocomplete="off">
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>CSS</label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>RWD</label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="large1" name="size">
+                    <label for="large1" class="form__radio-label">
+                      <span class="form__radio-button"></span>SASS</label>
+                  </div>
+
+                  <div class="form__radio-group ">
+                    <input type="radio" class="form__radio-input" id="large2" name="size">
+                    <label for="large2" class="form__radio-label">
+                      <span class="form__radio-button"></span>BOOTSTRAP</label>
+                  </div>
+
+                </div>
+
+                  <div class="form__group">
+                    <button class="btn btn--grey">Submit</button>
+                  </div>
+
+                                    
+
+                                    
+
+                      
+
+             
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <img src="img/logo-large.jpg" alt="logo" class="footer__logo">
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item"><a href="#section-about" class="footer__link">HOME</a></li>
+                <li class="footer__item"><a href="#section-about" class="footer__link">CSS</a></li>
+                <li class="footer__item"><a href="#section-about" class="footer__link">RWD</a></li>
+                <li class="footer__item"><a href="#section-about" class="footer__link">SASS</a></li>
+                <li class="footer__item"><a href="#section-about" class="footer__link">BOOTSTRAP</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-1-of-2">
+            <p class="footer__copyright">
+              My Personal Project - Gülcan COŞKUN - Advance CSS and SASS
+            </p>
+          </div>
+        </div>
+
+      </footer>
+
+      <div class="popup" id="popup">
+        <div class="popup__content">
+         <div class="popup__left">
+           <img src="img/css-small.jpg" alt="CSS" class="popup__img">
+           <img src="img/top-small.jpg" alt="Cart" class="popup__img">
+         </div>
+         <div class="popup__right">
+           <a href="#section-tours" class="popup__close">&times;</a>
+           <h2 class="heading-secondary">CSS Details</h2>
+           <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Learn details of CSS</h3>
+           <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <a href="#" class="btn btn--grey">CSS</a>
+         </div>
+        </div>
+      </div>
+     
+    </main>
+    <!--
+    <section class="grid-test">
+      <div class="row">
+        <div class="col-1-of-2">col 1 of 2</div>
+        <div class="col-1-of-2">col 1 of 2</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">col 1 of 3</div>
+        <div class="col-1-of-3">col 1 of 3</div>
+        <div class="col-1-of-3">col 1 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">col 1 of 3</div>
+        <div class="col-2-of-3">col 2 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-2-of-4">col 2 of 4</div>
+      </div>
+
+      
+      <div class="row">
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-1-of-4">col 1 of 4</div>
+      <div class="col-1-of-4">col 1 of 4</div>
+      <div class="col-1-of-4">col 1 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-3-of-4">col 3 of 4</div>
+      </div>
+    </section>
+    -->
+  </body>
+</html>

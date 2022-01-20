@@ -1,0 +1,19 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "2. project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://GulcanC.github.io/GC-C-2",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

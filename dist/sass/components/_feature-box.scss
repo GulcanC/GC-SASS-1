@@ -1,0 +1,36 @@
+.feature-box {
+  background-color: rgba($color-white-1, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: $box-shadow-1;
+  transition: transform 0.3s;
+  clip-path: polygon(0 0, 100% 0%, 100% 84%, 50% 100%, 0 84%);
+  height: 40rem;
+
+  &__icon {
+    font-size: 6rem;
+    display: block;
+    background-image: linear-gradient(
+      to left top,
+      $color-secondary,
+      $color-primary
+    );
+    // 1. background-clip and color.transparent makes background-image transparent
+    // 2. but  text is change its color.
+    //3. yani normalde backgroundu değiştirdik fakat "clip" text olunca sadece text değişiyor
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 4rem;
+  }
+
+  &:hover {
+    transform: translateY(1.5rem) scale(1.03);
+  }
+
+  &__text {
+    text-align: left;
+  }
+}
