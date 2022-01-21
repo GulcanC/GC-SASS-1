@@ -1,0 +1,39 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to left top,
+      rgba($color-secondary, 0.8),
+      rgba($color-primary, 0.8)
+    ),
+    url(../img/top-small.jpg);
+  background-size: cover;
+  background-position: top;
+  /* when you resize the page top part of the image will be seen */
+  /* clip path for make the pictures yamuk. */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  &__logo {
+    height: 7.5rem;
+    border-radius: 1rem;
+
+    &:hover {
+      height: 9.5rem;
+      transition: 2s;
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
