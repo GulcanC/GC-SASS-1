@@ -4,8 +4,8 @@
 https://gulcanc.github.io/GC-SASS-1/
 
 # About the Project
-This is my first advance CSS and Sass project as a part of the projects of the bestselling course “UDEMY - Advanced CSS and Sass: Flexbox, Grid, Animations and More!”. 
-With this beautiful and perfectly designed project, I have learned complex CSS animations, advanced responsive design techniques, flexbox layouts, Sass, CSS architecture, fundamental CSS concepts, and so much more.
+This is my first personal advance CSS and Sass project after I have learned the advance CSS, Sass properties with UDEMY-course project. 
+It was so enjoyable creating this colorful and well-designed project. I have used complex CSS animations, advanced responsive design techniques, flexbox layouts, Sass, CSS architecture, fundamental CSS concepts, and so much more.
 
 # Technologies & Techniques Used:
 •	Advanced CSS animations with @keyframes, animation and transition
@@ -28,4 +28,4 @@ With this beautiful and perfectly designed project, I have learned complex CSS a
 
 •	Build a background video effect
 
-•	Clip-path, background-clip, mask-image
+•	Clip-path, background-clip, mask-images
